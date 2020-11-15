@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>git提交代码</title>
+      <link href="2020/11/15/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81/"/>
+      <url>2020/11/15/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81/</url>
+      
+        <content type="html"><![CDATA[<h4 id="正常使用git"><a href="#正常使用git" class="headerlink" title="正常使用git"></a>正常使用git</h4><ol><li>git clone 远程仓库地址</li><li>git status </li><li>git add [. 默认全部文件]</li><li>git commit -m “描述信息”</li><li>git pull &lt;远程主机&gt; &lt;远程分支&gt;</li><li>git push &lt;远程主机&gt; &lt;远程分支&gt;</li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> git, command </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="2020/11/15/hello-world/"/>
       <url>2020/11/15/hello-world/</url>
