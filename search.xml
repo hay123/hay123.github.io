@@ -4,9 +4,28 @@
   
     
     <entry>
+      <title>html</title>
+      <link href="2020/12/21/html/"/>
+      <url>2020/12/21/html/</url>
+      
+        <content type="html"><![CDATA[<h1 id="常用标签和标签语义"><a href="#常用标签和标签语义" class="headerlink" title="常用标签和标签语义"></a>常用标签和标签语义</h1><blockquote><p>学习标签有技巧，重点记住标签语义</p></blockquote><ol><li><p>标题标签</p><blockquote><p>“<h1> - <h6>(分别是一级标题到六级标题)”</p></blockquote><p>— <h1></h1> 一级标题</p><p>— <h2></h2>二级标题</p><p>— <h3></h3>三级标题</p><p>— <h4></h4>四级标题</p><p>— <h5></h5>五级标题</p><p>— <h6></h6>六级标题</p></li><li><blockquote><p>段落标签和换行标签，段落标签（文字分段）换行标签（强制换行）</p></blockquote><blockquote><p>在网页中，要把文字分段显示，需要用到段落标签<p></p>和<br /></p></blockquote></li><li><p>文本格式化标签</p><blockquote><p>在网页中，有时需要为文字设置<strong>粗体</strong>，<em>斜体</em>，<u>下划线</u>效果，就需要用到文本格式化标签，让文字特殊显示</p></blockquote><table><thead><tr><th>语义</th><th>标签</th><th>说明</th></tr></thead><tbody><tr><td>加粗</td><td><strong></strong>strong&gt;或者<b></b>&gt;</td><td>推荐使用<strong>标签加粗，语义更强烈</td></tr><tr><td>倾斜</td><td><em></em>或者<i></i></td><td>推荐使用<em>标签加粗，语义更强烈</td></tr><tr><td>删除线</td><td><del></del>或者<s></s></td><td>推荐使用<del>标签加粗，语义更强烈</td></tr><tr><td>下划线</td><td><ins></ins>或者<u></u></td><td>推荐使用<ins>标签加粗，语义更强烈</td></tr></tbody></table></li><li><p>布局标签</p><blockquote><p>“<div>和<span>”标签，无语义标签，常用布局，相当于一个盒子容器，“<div>”独占一行，“<span>”也用来布局，一行可以放多个</p></blockquote></li><li><p>图像标签和路径</p><blockquote><p>“<img src="D:/笔记/图像URL" />“</p></blockquote><table><thead><tr><th>属性</th><th>属性值</th><th>说明</th></tr></thead><tbody><tr><td>src</td><td>图片路径</td><td>必须属性</td></tr><tr><td>alt</td><td>文本</td><td>替换文本</td></tr><tr><td>title</td><td>文本</td><td>提示文本</td></tr><tr><td>width</td><td>像素</td><td>图像宽度</td></tr><tr><td>height</td><td>像素</td><td>图像高度</td></tr><tr><td>border</td><td>像素</td><td>图像边框粗细</td></tr></tbody></table></li><li><p>超链接标签 </p><p>在HTML中<a>标签用于定义超链接，作用是从一个页面跳转到另一个页面。</p><p><a href="跳转地址" target="目标窗口弹出方式">文本或者图像</a></p><p>分类：</p><pre><code>- 外部链接- 内部链接- 下载链接- 网页元素链接- 空链接- 锚点链接（点击标签跳转到特定位置）</code></pre></li><li><p>注释和特殊字符</p><p>使用快捷键-&gt; Ctrl + / 快速注释</p><p>7.1 特殊字符</p><p><img src="https://cdn.jsdelivr.net/gh/bytes-beat/blog-images@main/images/20201220165617.png"></p></li></ol><ol start="8"><li><p>表格标签</p><p>表格不是用来布局页面的，而是用来展示数据的</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">&lt;tr&gt;</span><br><span class="line">&lt;th&gt;表头1&lt;&#x2F;th&gt;</span><br><span class="line">&lt;th&gt;表头2&lt;&#x2F;th&gt;</span><br><span class="line">&lt;th&gt;表头3&lt;&#x2F;th&gt;</span><br><span class="line">&lt;&#x2F;tr&gt;</span><br><span class="line">&lt;tr&gt;</span><br><span class="line">&lt;td&gt;数据&lt;&#x2F;td&gt;</span><br><span class="line">&lt;td&gt;数据&lt;&#x2F;td&gt;</span><br><span class="line">&lt;td&gt;数据&lt;&#x2F;td&gt;</span><br><span class="line">&lt;&#x2F;tr&gt;</span><br><span class="line">&lt;&#x2F;table&gt;</span><br></pre></td></tr></table></figure><ol><li>“<table></table>”用于定义表格的标签</li><li>“<tr></tr>“用于定义表格中的行，必须放在table标签内</li><li>“<td></td>用于定义表格中的单元格，放在tr内”</li><li>“<th></th>”用于定义表头</li><li>“<thead></thead>”表格的头部区域</li><li>“<tbody></tbody>”表格的主体部分</li></ol></li><li><p>列表标签</p><p>无序列表ul / 有序列表 ol </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;ul&gt;</span><br><span class="line">&lt;li&gt;列表项一&lt;&#x2F;li&gt;</span><br><span class="line">&lt;li&gt;列表项一&lt;&#x2F;li&gt;</span><br><span class="line">&lt;li&gt;列表项一&lt;&#x2F;li&gt;</span><br><span class="line">&lt;li&gt;列表项一&lt;&#x2F;li&gt;</span><br><span class="line">。。。。。。</span><br><span class="line">&lt;&#x2F;ul&gt;</span><br></pre></td></tr></table></figure><ul><li>无序列表没有顺序之分，是并列关系</li><li>ul/ol/dl中只能嵌套li,不能在ul中直接嵌套其他标签或者文字</li><li>li相当于一个容器，可以容纳所有元素</li><li>无序列表带有自己的属性，实际使用会将其样式去掉</li></ul></li><li><p>自定义列表dl</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;dl&gt;</span><br><span class="line">&lt;dt&gt;解释&lt;&#x2F;dt&gt;</span><br><span class="line">&lt;dd&gt;&lt;&#x2F;dd&gt;</span><br><span class="line">&lt;dd&gt;&lt;&#x2F;dd&gt;</span><br><span class="line">&lt;dd&gt;&lt;&#x2F;dd&gt;</span><br><span class="line">。。。。</span><br><span class="line">&lt;&#x2F;dl&gt;</span><br></pre></td></tr></table></figure></li><li><p>表单标签</p><p>由三部分组成，分别是表单域，表单控件，提示信息，通过form标签声明一个表单域</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;form action&#x3D;&quot;url地址&quot; method&#x3D;&quot;提交方法&quot; name&#x3D;&quot;&quot;&gt;</span><br><span class="line">表单控件</span><br><span class="line">&lt;&#x2F;form&gt;</span><br></pre></td></tr></table></figure></li></ol><pre><code>- input输入表单元素  | 属性值   | 描述                                                   |  | -------- | ------------------------------------------------------ |  | button   | 定义按钮                                               |  | checkbox | 定义复选框                                             |  | file     | 定义输入字段和浏览按钮，供文件上传                     |  | hidden   | 定义隐藏的输入字段                                     |  | image    | 定义图像形式的提交按钮                                 |  | password | 定义密码字段                                           |  | radio    | 定义单选按钮                                           |  | reset    | 定义充值按钮，会清除表单中的所有数据                   |  | submit   | 定义提交按钮，将表单数据提交到服务器                   |  | text     | 定义单行输入字段，用户可在其中输入文本，默认为20个字符 |  | 属性      | 属性值     | 描述               |  | --------- | ---------- | ------------------ |  | name      | 用户自定义 | input元素的名称    |  | value     | 用户自定义 | input元素的值      |  | checked   | checked    | 选中               |  | maxlength | 正整数     | 输入字符的最大长度 |  * label标签 为input定义标注    用于绑定一个表单元素，点击label标签内的文本，浏览器就会自动将光标转到对应的表单元素上，增加用户体验,for属性的值应该与被绑定标签的id值一致    <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;label for&#x3D;&quot;sex&quot;&gt;男&lt;&#x2F;label&gt;</span><br><span class="line">&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;sex&quot; id&#x3D;&quot;sex&quot; &#x2F;&gt; </span><br></pre></td></tr></table></figure>- select下拉表单元素  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;select&gt;</span><br><span class="line">&lt;option&gt;选项一&lt;&#x2F;option&gt;</span><br><span class="line">&lt;option&gt;选项二&lt;&#x2F;option&gt;</span><br><span class="line">&lt;option&gt;选项三&lt;&#x2F;option&gt;</span><br><span class="line">。。。。</span><br><span class="line">&lt;&#x2F;select&gt;</span><br></pre></td></tr></table></figure>- textarea文本域元素</code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> html基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
-      <link href="2020/11/28/hello-world/"/>
-      <url>2020/11/28/hello-world/</url>
+      <link href="2020/12/21/hello-world/"/>
+      <url>2020/12/21/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
@@ -62,17 +81,6 @@
     
     
     <entry>
-      <title>about</title>
-      <link href="about/index.html"/>
-      <url>about/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="manifest.json"/>
       <url>manifest.json</url>
@@ -87,6 +95,17 @@
       <title>分类</title>
       <link href="categories/index.html"/>
       <url>categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>about</title>
+      <link href="about/index.html"/>
+      <url>about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -132,7 +151,7 @@
       <link href="music/index.html"/>
       <url>music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-UWczUNfs" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="815535292" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-TFxDJfDg" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="815535292" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
